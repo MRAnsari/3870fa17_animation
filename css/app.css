@@ -6,23 +6,26 @@
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Ribeye Marrow', cursive;}
 
-.navi {margin-top: 2.5em;
-  margin-bottom: 2.5em;}
+/*BODY*/
+#indexpage {
+  background-color: #21273f;
+  color: #b7d8f1;
+            }
+.buffer {margin-left: 3em;}
 
-.testimonial {margin-top: 1.5em;
-  margin-bottom: 1.5em;}
+/*HEADER*/
+.headtop {
+  margin-top: 3.5em;
+        }
 
-.button {
-  background-color: darkgray;
-  color: #fefefe;
-  }
+/*STANZAS*/
+.stanza {
+  margin-top: 2em;
+        }
 
-.button:hover, .button:focus {
-  background-color: gray;
-  color: #fefefe;
-  }
-
-a {color: gray;}
-a:hover {color: darkgray;}
-a:visited {color: gray;}
-a:active {color: lightgray;}*/
+/*FOOTER*/
+.footbot {
+  margin-top: 1.5em;
+  color: #2e3552;
+  hover: white;
+        }
