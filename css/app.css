@@ -1,17 +1,17 @@
-/*Fonts*/
-/*font-family: 'Ribeye Marrow', cursive;*/
-/*font-family: 'Quicksand', sans-serif;*/
-
-/*p, label, textarea {font-family: 'Quicksand', sans-serif;}
-
-h1, h2, h3, h4, h5, h6 {font-family: 'Ribeye Marrow', cursive;}
-
 /*BODY*/
 #indexpage {
   background-color: #21273f;
   color: #b7d8f1;
-            }
-.buffer {margin-left: 3em;}
+  font-family: 'Montserrat', sans-serif;}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 3em;
+    }
+
+.buffer {margin-left: 2em;}
+.bbuffer {margin-left: 3.5em}
+.hbuffer {margin-left: 11em;}
 
 /*HEADER*/
 .headtop {
@@ -27,5 +27,36 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Ribeye Marrow', cursive;}
 .footbot {
   margin-top: 1.5em;
   color: #2e3552;
-  hover: white;
         }
+.credhov:hover {color: #b7d8f1;}
+
+/*HEART ANIM*/
+.heart {
+    width: 20px;
+    height: 25px;
+    background-image: url("../images/pixanim.png");
+    -webkit-animation: play .8s steps(10) infinite;
+       -moz-animation: play .8s steps(10) infinite;
+        -ms-animation: play .8s steps(10) infinite;
+         -o-animation: play .8s steps(10) infinite;
+            animation: play .8s steps(10) infinite;}
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+      }
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+      }
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+      }
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+      }
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -200px; }
+      }
