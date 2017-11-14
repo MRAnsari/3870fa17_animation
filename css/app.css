@@ -68,21 +68,18 @@ h1 {
     padding: 0;
     background: #0E1013;
 }*/
-
 /*.container {*/
     /*width: 200px;*/
     /*height: 100px;*/
     /*padding-top: 100px;*/
     /*margin: 0 auto;*/
 /*}*/
-
 /*.ball {*/
     /*width: 10px;*/
     /*height: 10px;*/
     /*margin: 10px auto;*/
     /*border-radius: 50px;*/
 /*}*/
-
 /*.ball:nth-child(1) {
     -webkit-animation: right 1s infinite ease-in-out;
     -moz-animation: right 1s infinite ease-in-out;
@@ -118,7 +115,6 @@ h1 {
     -moz-animation: right 1s infinite ease-in-out;
     animation: right 1s infinite ease-in-out;
 }*/
-
 /*@-webkit-keyframes right {
     0% {transform: translate(-15px);}
     50% {transform: translate(15px);}
@@ -155,59 +151,59 @@ h1 {
 .starrynight {
   /*font-size: 15em;*/
   color: lightyellow;
-		position: absolute;
+	position: absolute;
 	-webkit-animation: orbiting 2s linear infinite normal;
-}
+            }
 
-.starry>span:nth-child(7n)  {-webkit-animation: orbiting_0 6s linear infinite normal;}
-.starry>span:nth-child(7n+1){-webkit-animation: orbiting_1 6s linear infinite normal;}
-.starry>span:nth-child(7n+2){-webkit-animation: orbiting_2 6s linear infinite normal;}
-.starry>span:nth-child(7n+3){-webkit-animation: orbiting_3 6s linear infinite normal;}
-.starry>span:nth-child(7n+4){-webkit-animation: orbiting_4 6s linear infinite normal;}
-.starry>span:nth-child(7n+5){-webkit-animation: orbiting_5 6s linear infinite normal;}
-.starry>span:nth-child(7n+6){-webkit-animation: orbiting_6 6s linear infinite normal;}
+.starry>span:nth-child(1){-webkit-animation: orbiting_1 6s linear infinite normal;}
+.starry>span:nth-child(2){-webkit-animation: orbiting_2 6s linear infinite normal;}
+.starry>span:nth-child(3){-webkit-animation: orbiting_3 6s linear infinite normal;}
+.starry>span:nth-child(4){-webkit-animation: orbiting_4 6s linear infinite normal;}
+.starry>span:nth-child(5){-webkit-animation: orbiting_5 6s linear infinite normal;}
+.starry>span:nth-child(6){-webkit-animation: orbiting_6 6s linear infinite normal;}
+.starry>span:nth-child(7){-webkit-animation: orbiting_7 6s linear infinite normal;}
 
 /*.starry>span:nth-child(4n+1){-webkit-animation-duration: 13s; }*/
 
-@-webkit-keyframes orbiting_0 {
+@-webkit-keyframes orbiting_1 {
   from {  top: 4%;
           left: 0%;   }
   to {    top: 4%;
           left: 100%; }
-                              }
-@-webkit-keyframes orbiting_1 {
+  }
+@-webkit-keyframes orbiting_2 {
   from {  top: 11%;
           left: 0%;   }
   to {    top: 11%;
           left: 100%; }
-                              }
-@-webkit-keyframes orbiting_2 {
+  }
+@-webkit-keyframes orbiting_3 {
   from {  top: 19%;
           left: 0%;   }
   to {    top: 19%;
           left: 100%; }
-                              }
-@-webkit-keyframes orbiting_3 {
+  }
+@-webkit-keyframes orbiting_4 {
   from {  top: 25%;
           left: 0%;    }
   to {    top: 25%;
           left: 100%;  }
-                              }
-@-webkit-keyframes orbiting_4 {
+  }
+@-webkit-keyframes orbiting_5 {
   from {  top: 33%;
           left: 0%;    }
   to {    top: 33%;
           left: 100%;  }
-                              }
-@-webkit-keyframes orbiting_5 {
+  }
+@-webkit-keyframes orbiting_6 {
   from {  top: 40%;
           left: 0%;    }
   to {    top: 40%;
           left: 100%;  }
-                              }
-@-webkit-keyframes orbiting_6 {
+  }
+@-webkit-keyframes orbiting_7 {
   from {  top: 49%;
           left: 0%;   }
   to {    top: 49%;
           left: 100%; }
-                              }
+  }
