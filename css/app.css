@@ -147,63 +147,117 @@ h1 {
                   }*/
 
 /*STARS ANIM*/
+    /*Stars Pulse*/
+.glow>span {-webkit-transition color pulse 2s linear;}
+/*.glow>span {-webkit-transition: pulse 2s linear infinite normal;}*/
+
+@-webkit-keyframes pulse {
+  from {color: yellow;    }
+  to   {color: red;       }
+  }
+
+    /*Stars Movement*/
 
 .starrynight {
-  /*font-size: 15em;*/
-  color: lightyellow;
+  /*color: lightyellow;*/
 	position: absolute;
-	-webkit-animation: orbiting 2s linear infinite normal;
-            }
+	            }
 
-.starry>span:nth-child(1){-webkit-animation: orbiting_1 6s linear infinite normal;}
-.starry>span:nth-child(2){-webkit-animation: orbiting_2 6s linear infinite normal;}
-.starry>span:nth-child(3){-webkit-animation: orbiting_3 6s linear infinite normal;}
-.starry>span:nth-child(4){-webkit-animation: orbiting_4 6s linear infinite normal;}
-.starry>span:nth-child(5){-webkit-animation: orbiting_5 6s linear infinite normal;}
-.starry>span:nth-child(6){-webkit-animation: orbiting_6 6s linear infinite normal;}
-.starry>span:nth-child(7){-webkit-animation: orbiting_7 6s linear infinite normal;}
-
-/*.starry>span:nth-child(4n+1){-webkit-animation-duration: 13s; }*/
-
-@-webkit-keyframes orbiting_1 {
-  from {  top: 4%;
-          left: 0%;   }
-  to {    top: 4%;
+.starry>span:nth-child(1) {-webkit-animation: orbiting_01 1000s linear infinite normal;}
+.starry>span:nth-child(2) {-webkit-animation: orbiting_02 1000s linear infinite normal;}
+.starry>span:nth-child(3) {-webkit-animation: orbiting_03 1000s linear infinite normal;}
+.starry>span:nth-child(4) {-webkit-animation: orbiting_04 1000s linear infinite normal;}
+.starry>span:nth-child(5) {-webkit-animation: orbiting_05 1000s linear infinite normal;}
+.starry>span:nth-child(6) {-webkit-animation: orbiting_06 1000s linear infinite normal;}
+.starry>span:nth-child(7) {-webkit-animation: orbiting_07 1000s linear infinite normal;}
+.starry>span:nth-child(8) {-webkit-animation: orbiting_08 1000s linear infinite normal;}
+.starry>span:nth-child(9) {-webkit-animation: orbiting_09 1000s linear infinite normal;}
+.starry>span:nth-child(10){-webkit-animation: orbiting_10 1000s linear infinite normal;}
+.starry>span:nth-child(11){-webkit-animation: orbiting_11 1000s linear infinite normal;}
+.starry>span:nth-child(12){-webkit-animation: orbiting_12 1000s linear infinite normal;}
+.starry>span:nth-child(13){-webkit-animation: orbiting_13 1000s linear infinite normal;}
+.starry>span:nth-child(14){-webkit-animation: orbiting_14 1000s linear infinite normal;}
+@-webkit-keyframes orbiting_01 {
+  from {  top: 2%;
+          left: 25%;   }
+  to {    top: 2%;
           left: 100%; }
   }
-@-webkit-keyframes orbiting_2 {
-  from {  top: 11%;
-          left: 0%;   }
-  to {    top: 11%;
+@-webkit-keyframes orbiting_02 {
+  from {  top: 8%;
+          left: 55%;   }
+  to {    top: 8%;
           left: 100%; }
   }
-@-webkit-keyframes orbiting_3 {
-  from {  top: 19%;
-          left: 0%;   }
-  to {    top: 19%;
+@-webkit-keyframes orbiting_03 {
+  from {  top: 15%;
+          left: 10%;   }
+  to {    top: 15%;
           left: 100%; }
   }
-@-webkit-keyframes orbiting_4 {
-  from {  top: 25%;
-          left: 0%;    }
-  to {    top: 25%;
+@-webkit-keyframes orbiting_04 {
+  from {  top: 20%;
+          left: 75%;    }
+  to {    top: 20%;
           left: 100%;  }
   }
-@-webkit-keyframes orbiting_5 {
-  from {  top: 33%;
-          left: 0%;    }
-  to {    top: 33%;
+@-webkit-keyframes orbiting_05 {
+  from {  top: 29%;
+          left: 40%;    }
+  to {    top: 29%;
           left: 100%;  }
   }
-@-webkit-keyframes orbiting_6 {
-  from {  top: 40%;
-          left: 0%;    }
-  to {    top: 40%;
+@-webkit-keyframes orbiting_06 {
+  from {  top: 36%;
+          left: 15%;    }
+  to {    top: 36%;
           left: 100%;  }
   }
-@-webkit-keyframes orbiting_7 {
-  from {  top: 49%;
-          left: 0%;   }
-  to {    top: 49%;
+@-webkit-keyframes orbiting_07 {
+  from {  top: 41%;
+          left: 88%;   }
+  to {    top: 41%;
+          left: 100%; }
+  }
+@-webkit-keyframes orbiting_08 {
+  from {  top: 47%;
+          left: 35%;   }
+  to {    top: 47%;
+          left: 100%; }
+  }
+@-webkit-keyframes orbiting_09 {
+  from {  top: 51%;
+          left: 59%;   }
+  to {    top: 51%;
+          left: 100%; }
+  }
+@-webkit-keyframes orbiting_10 {
+  from {  top: 57%;
+          left: 25%;   }
+  to {    top: 57%;
+          left: 100%; }
+  }
+@-webkit-keyframes orbiting_11 {
+  from {  top: 64%;
+          left: 71%;   }
+  to {    top: 64%;
+          left: 100%; }
+  }
+@-webkit-keyframes orbiting_12 {
+  from {  top: 76%;
+          left: 45%;   }
+  to {    top: 76%;
+          left: 100%; }
+  }
+@-webkit-keyframes orbiting_13 {
+  from {  top: 84%;
+          left: 30%;   }
+  to {    top: 84%;
+          left: 100%; }
+  }
+@-webkit-keyframes orbiting_14 {
+  from {  top: 91%;
+          left: 84%;   }
+  to {    top: 91%;
           left: 100%; }
   }
