@@ -226,51 +226,72 @@ h1 {
       }
 
 /*WORD PULSE*/
-.wordglow>p>span:nth-child(1)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 0s;*/
-                            }
-.wordglow>p>span:nth-child(2)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 1s;*/
-                            }
-.wordglow>p>span:nth-child(3)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 2s;*/
-                            }
-.wordglow>p>span:nth-child(4)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 3s;*/
-                            }
-.wordglow>p>span:nth-child(5)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 4s;*/
-                            }
-.wordglow>p>span:nth-child(6)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 5s;*/
-                            }
-.wordglow>p>span:nth-child(7)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 6s;*/
-                            }
-.wordglow>p>span:nth-child(8)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 7s;*/
-                            }
-.wordglow>p>span:nth-child(9)  {-webkit-animation: pulse 2s alternate infinite;
-                              /*animation-delay: 8s;*/
-                            }
-.wordglow>p>span:nth-child(10) {-webkit-animation: pulse 2s alternate infinite;
-                              /*-webkit-animation-delay: 9s;*/
-                            }
-.wordglow>p>span:nth-child(11) {-webkit-animation: pulse 2s alternate infinite;
-                              /*-webkit-animation-delay: 10s;*/
-                            }
-.wordglow>p>span:nth-child(12) {-webkit-animation: pulse 2s alternate infinite;
-                              /*-webkit-animation-delay: 11s;*/
-                            }
-.wordglow>p>span:nth-child(13) {-webkit-animation: pulse 2s alternate infinite;
-                              /*-webkit-animation-delay: 12s;*/
-                            }
-
-
-
-
-
-
+.glowy_01  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 0s;}
+.glowy_02  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 1s;}
+.glowy_03  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 2s;}
+.glowy_04  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 3s;}
+.glowy_05  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 4s;}
+.glowy_06  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 5s;}
+.glowy_07  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 6s;}
+.glowy_08  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 7s;}
+.glowy_09  {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 8s;}
+.glowy_10 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 9s;}
+.glowy_11 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 10s;}
+.glowy_12 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 11s;}
+.glowy_13 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 12s;}
+.glowy_14 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 13s;}
+.glowy_15 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 14s;}
+.glowy_16 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 15s;}
+.glowy_17 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 16s;}
+.glowy_18 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 17s;}
+.glowy_19 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 18s;}
+.glowy_20 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 19s;}
+.glowy_21 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 20s;}
+.glowy_22 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 21s;}
+.glowy_23 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 22s;}
+.glowy_24 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 23s;}
+.glowy_25 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 24s;}
+.glowy_26 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 25s;}
+.glowy_27 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 26s;}
+.glowy_28 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 27s;}
+.glowy_29 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 28s;}
+.glowy_30 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 29s;}
+.glowy_31 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 30s;}
+.glowy_32 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 31s;}
+.glowy_33 {-webkit-animation: pulse 2s alternate infinite;
+                              -webkit-animation-delay: 32s;}
 @-webkit-keyframes pulse {
     0%  {text-shadow: 0 0 0px lightyellow; }
   100%   {text-shadow: 0 0 21px lightyellow; }
